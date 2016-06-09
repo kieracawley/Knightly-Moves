@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		937ABE5F1D079A0E00CF8EAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937ABE5E1D079A0E00CF8EAE /* AppDelegate.swift */; };
+		937ABE611D079A0E00CF8EAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937ABE601D079A0E00CF8EAE /* ViewController.swift */; };
+		937ABE641D079A0E00CF8EAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937ABE621D079A0E00CF8EAE /* Main.storyboard */; };
+		937ABE661D079A0E00CF8EAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937ABE651D079A0E00CF8EAE /* Assets.xcassets */; };
+		937ABE691D079A0E00CF8EAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937ABE671D079A0E00CF8EAE /* LaunchScreen.storyboard */; };
+		937ABE741D079A0E00CF8EAE /* Knightly_MovesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937ABE731D079A0E00CF8EAE /* Knightly_MovesTests.swift */; };
+		937ABE7F1D079A0F00CF8EAE /* Knightly_MovesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937ABE7E1D079A0F00CF8EAE /* Knightly_MovesUITests.swift */; };
+		937ABE8D1D07A31000CF8EAE /* GameSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937ABE8C1D07A31000CF8EAE /* GameSettingsViewController.swift */; };
+		937ABE8F1D07A31B00CF8EAE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937ABE8E1D07A31B00CF8EAE /* GameViewController.swift */; };
+		937ABE911D07AD5200CF8EAE /* spikes.png in Resources */ = {isa = PBXBuildFile; fileRef = 937ABE901D07AD5200CF8EAE /* spikes.png */; };
+		93C299DC1D09E45C0027A1A0 /* queen.png in Resources */ = {isa = PBXBuildFile; fileRef = 93C299D81D09E45C0027A1A0 /* queen.png */; };
+		93C299DD1D09E45C0027A1A0 /* rook.png in Resources */ = {isa = PBXBuildFile; fileRef = 93C299D91D09E45C0027A1A0 /* rook.png */; };
+		93C299DE1D09E45C0027A1A0 /* bishop.png in Resources */ = {isa = PBXBuildFile; fileRef = 93C299DA1D09E45C0027A1A0 /* bishop.png */; };
+		93C299E01D09E4B30027A1A0 /* knight.png in Resources */ = {isa = PBXBuildFile; fileRef = 93C299DF1D09E4B30027A1A0 /* knight.png */; };
+		93C299E21D09E9F10027A1A0 /* monster.png in Resources */ = {isa = PBXBuildFile; fileRef = 93C299E11D09E9F10027A1A0 /* monster.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		937ABE701D079A0E00CF8EAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 937ABE531D079A0E00CF8EAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 937ABE5A1D079A0E00CF8EAE;
+			remoteInfo = "Knightly Moves";
+		};
+		937ABE7B1D079A0F00CF8EAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 937ABE531D079A0E00CF8EAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 937ABE5A1D079A0E00CF8EAE;
+			remoteInfo = "Knightly Moves";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		937ABE5B1D079A0E00CF8EAE /* Knightly Moves.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Knightly Moves.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		937ABE5E1D079A0E00CF8EAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		937ABE601D079A0E00CF8EAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		937ABE631D079A0E00CF8EAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		937ABE651D079A0E00CF8EAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		937ABE681D079A0E00CF8EAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		937ABE6A1D079A0E00CF8EAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		937ABE6F1D079A0E00CF8EAE /* Knightly MovesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Knightly MovesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		937ABE731D079A0E00CF8EAE /* Knightly_MovesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knightly_MovesTests.swift; sourceTree = "<group>"; };
+		937ABE751D079A0E00CF8EAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		937ABE7A1D079A0F00CF8EAE /* Knightly MovesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Knightly MovesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		937ABE7E1D079A0F00CF8EAE /* Knightly_MovesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knightly_MovesUITests.swift; sourceTree = "<group>"; };
+		937ABE801D079A0F00CF8EAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		937ABE8C1D07A31000CF8EAE /* GameSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSettingsViewController.swift; sourceTree = "<group>"; };
+		937ABE8E1D07A31B00CF8EAE /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		937ABE901D07AD5200CF8EAE /* spikes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spikes.png; sourceTree = "<group>"; };
+		93C299D81D09E45C0027A1A0 /* queen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = queen.png; sourceTree = "<group>"; };
+		93C299D91D09E45C0027A1A0 /* rook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rook.png; sourceTree = "<group>"; };
+		93C299DA1D09E45C0027A1A0 /* bishop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bishop.png; sourceTree = "<group>"; };
+		93C299DF1D09E4B30027A1A0 /* knight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = knight.png; sourceTree = "<group>"; };
+		93C299E11D09E9F10027A1A0 /* monster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		937ABE581D079A0E00CF8EAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		937ABE6C1D079A0E00CF8EAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		937ABE771D079A0F00CF8EAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		937ABE521D079A0E00CF8EAE = {
+			isa = PBXGroup;
+			children = (
+				937ABE5D1D079A0E00CF8EAE /* Knightly Moves */,
+				937ABE721D079A0E00CF8EAE /* Knightly MovesTests */,
+				937ABE7D1D079A0F00CF8EAE /* Knightly MovesUITests */,
+				937ABE5C1D079A0E00CF8EAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		937ABE5C1D079A0E00CF8EAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				937ABE5B1D079A0E00CF8EAE /* Knightly Moves.app */,
+				937ABE6F1D079A0E00CF8EAE /* Knightly MovesTests.xctest */,
+				937ABE7A1D079A0F00CF8EAE /* Knightly MovesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		937ABE5D1D079A0E00CF8EAE /* Knightly Moves */ = {
+			isa = PBXGroup;
+			children = (
+				937ABE5E1D079A0E00CF8EAE /* AppDelegate.swift */,
+				937ABE601D079A0E00CF8EAE /* ViewController.swift */,
+				937ABE8C1D07A31000CF8EAE /* GameSettingsViewController.swift */,
+				937ABE8E1D07A31B00CF8EAE /* GameViewController.swift */,
+				937ABE621D079A0E00CF8EAE /* Main.storyboard */,
+				937ABE651D079A0E00CF8EAE /* Assets.xcassets */,
+				937ABE671D079A0E00CF8EAE /* LaunchScreen.storyboard */,
+				937ABE6A1D079A0E00CF8EAE /* Info.plist */,
+				93C299D81D09E45C0027A1A0 /* queen.png */,
+				93C299DF1D09E4B30027A1A0 /* knight.png */,
+				93C299D91D09E45C0027A1A0 /* rook.png */,
+				93C299DA1D09E45C0027A1A0 /* bishop.png */,
+				937ABE901D07AD5200CF8EAE /* spikes.png */,
+				93C299E11D09E9F10027A1A0 /* monster.png */,
+			);
+			path = "Knightly Moves";
+			sourceTree = "<group>";
+		};
+		937ABE721D079A0E00CF8EAE /* Knightly MovesTests */ = {
+			isa = PBXGroup;
+			children = (
+				937ABE731D079A0E00CF8EAE /* Knightly_MovesTests.swift */,
+				937ABE751D079A0E00CF8EAE /* Info.plist */,
+			);
+			path = "Knightly MovesTests";
+			sourceTree = "<group>";
+		};
+		937ABE7D1D079A0F00CF8EAE /* Knightly MovesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				937ABE7E1D079A0F00CF8EAE /* Knightly_MovesUITests.swift */,
+				937ABE801D079A0F00CF8EAE /* Info.plist */,
+			);
+			path = "Knightly MovesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		937ABE5A1D079A0E00CF8EAE /* Knightly Moves */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 937ABE831D079A0F00CF8EAE /* Build configuration list for PBXNativeTarget "Knightly Moves" */;
+			buildPhases = (
+				937ABE571D079A0E00CF8EAE /* Sources */,
+				937ABE581D079A0E00CF8EAE /* Frameworks */,
+				937ABE591D079A0E00CF8EAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Knightly Moves";
+			productName = "Knightly Moves";
+			productReference = 937ABE5B1D079A0E00CF8EAE /* Knightly Moves.app */;
+			productType = "com.apple.product-type.application";
+		};
+		937ABE6E1D079A0E00CF8EAE /* Knightly MovesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 937ABE861D079A0F00CF8EAE /* Build configuration list for PBXNativeTarget "Knightly MovesTests" */;
+			buildPhases = (
+				937ABE6B1D079A0E00CF8EAE /* Sources */,
+				937ABE6C1D079A0E00CF8EAE /* Frameworks */,
+				937ABE6D1D079A0E00CF8EAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				937ABE711D079A0E00CF8EAE /* PBXTargetDependency */,
+			);
+			name = "Knightly MovesTests";
+			productName = "Knightly MovesTests";
+			productReference = 937ABE6F1D079A0E00CF8EAE /* Knightly MovesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		937ABE791D079A0F00CF8EAE /* Knightly MovesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 937ABE891D079A0F00CF8EAE /* Build configuration list for PBXNativeTarget "Knightly MovesUITests" */;
+			buildPhases = (
+				937ABE761D079A0F00CF8EAE /* Sources */,
+				937ABE771D079A0F00CF8EAE /* Frameworks */,
+				937ABE781D079A0F00CF8EAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				937ABE7C1D079A0F00CF8EAE /* PBXTargetDependency */,
+			);
+			name = "Knightly MovesUITests";
+			productName = "Knightly MovesUITests";
+			productReference = 937ABE7A1D079A0F00CF8EAE /* Knightly MovesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		937ABE531D079A0E00CF8EAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kiera Cawley";
+				TargetAttributes = {
+					937ABE5A1D079A0E00CF8EAE = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 45E3FZNMHP;
+					};
+					937ABE6E1D079A0E00CF8EAE = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 937ABE5A1D079A0E00CF8EAE;
+					};
+					937ABE791D079A0F00CF8EAE = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 937ABE5A1D079A0E00CF8EAE;
+					};
+				};
+			};
+			buildConfigurationList = 937ABE561D079A0E00CF8EAE /* Build configuration list for PBXProject "Knightly Moves" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 937ABE521D079A0E00CF8EAE;
+			productRefGroup = 937ABE5C1D079A0E00CF8EAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				937ABE5A1D079A0E00CF8EAE /* Knightly Moves */,
+				937ABE6E1D079A0E00CF8EAE /* Knightly MovesTests */,
+				937ABE791D079A0F00CF8EAE /* Knightly MovesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		937ABE591D079A0E00CF8EAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				937ABE911D07AD5200CF8EAE /* spikes.png in Resources */,
+				937ABE691D079A0E00CF8EAE /* LaunchScreen.storyboard in Resources */,
+				93C299E21D09E9F10027A1A0 /* monster.png in Resources */,
+				93C299E01D09E4B30027A1A0 /* knight.png in Resources */,
+				93C299DE1D09E45C0027A1A0 /* bishop.png in Resources */,
+				93C299DC1D09E45C0027A1A0 /* queen.png in Resources */,
+				937ABE661D079A0E00CF8EAE /* Assets.xcassets in Resources */,
+				937ABE641D079A0E00CF8EAE /* Main.storyboard in Resources */,
+				93C299DD1D09E45C0027A1A0 /* rook.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		937ABE6D1D079A0E00CF8EAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		937ABE781D079A0F00CF8EAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		937ABE571D079A0E00CF8EAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				937ABE8F1D07A31B00CF8EAE /* GameViewController.swift in Sources */,
+				937ABE611D079A0E00CF8EAE /* ViewController.swift in Sources */,
+				937ABE5F1D079A0E00CF8EAE /* AppDelegate.swift in Sources */,
+				937ABE8D1D07A31000CF8EAE /* GameSettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		937ABE6B1D079A0E00CF8EAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				937ABE741D079A0E00CF8EAE /* Knightly_MovesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		937ABE761D079A0F00CF8EAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				937ABE7F1D079A0F00CF8EAE /* Knightly_MovesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		937ABE711D079A0E00CF8EAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 937ABE5A1D079A0E00CF8EAE /* Knightly Moves */;
+			targetProxy = 937ABE701D079A0E00CF8EAE /* PBXContainerItemProxy */;
+		};
+		937ABE7C1D079A0F00CF8EAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 937ABE5A1D079A0E00CF8EAE /* Knightly Moves */;
+			targetProxy = 937ABE7B1D079A0F00CF8EAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		937ABE621D079A0E00CF8EAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				937ABE631D079A0E00CF8EAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		937ABE671D079A0E00CF8EAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				937ABE681D079A0E00CF8EAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		937ABE811D079A0F00CF8EAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		937ABE821D079A0F00CF8EAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		937ABE841D079A0F00CF8EAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Knightly Moves/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KieraCawley.Knightly-Moves";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		937ABE851D079A0F00CF8EAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Knightly Moves/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KieraCawley.Knightly-Moves";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		937ABE871D079A0F00CF8EAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Knightly MovesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KieraCawley.Knightly-MovesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Knightly Moves.app/Knightly Moves";
+			};
+			name = Debug;
+		};
+		937ABE881D079A0F00CF8EAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Knightly MovesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KieraCawley.Knightly-MovesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Knightly Moves.app/Knightly Moves";
+			};
+			name = Release;
+		};
+		937ABE8A1D079A0F00CF8EAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Knightly MovesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KieraCawley.Knightly-MovesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Knightly Moves";
+			};
+			name = Debug;
+		};
+		937ABE8B1D079A0F00CF8EAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Knightly MovesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KieraCawley.Knightly-MovesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Knightly Moves";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		937ABE561D079A0E00CF8EAE /* Build configuration list for PBXProject "Knightly Moves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				937ABE811D079A0F00CF8EAE /* Debug */,
+				937ABE821D079A0F00CF8EAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		937ABE831D079A0F00CF8EAE /* Build configuration list for PBXNativeTarget "Knightly Moves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				937ABE841D079A0F00CF8EAE /* Debug */,
+				937ABE851D079A0F00CF8EAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		937ABE861D079A0F00CF8EAE /* Build configuration list for PBXNativeTarget "Knightly MovesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				937ABE871D079A0F00CF8EAE /* Debug */,
+				937ABE881D079A0F00CF8EAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		937ABE891D079A0F00CF8EAE /* Build configuration list for PBXNativeTarget "Knightly MovesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				937ABE8A1D079A0F00CF8EAE /* Debug */,
+				937ABE8B1D079A0F00CF8EAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 937ABE531D079A0E00CF8EAE /* Project object */;
+}
